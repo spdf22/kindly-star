@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Open Gratitude · 开源致谢</title>
-  <desc id="desc">Let real use meet kind recognition. 让真实使用，被善意看见。</desc>
+  <title id="title">KindlyStar · 一点星意</title>
+  <desc id="desc">A little Star. A little thanks. 用过的好项目，送上一点星意。</desc>
   <rect width="1200" height="340" rx="28" fill="#F3F6EC"/>
   <circle cx="1050" cy="170" r="132" fill="#E2EDDC"/>
   <path d="M1040 248V172" fill="none" stroke="#16765A" stroke-width="9" stroke-linecap="round"/>
   <path d="M1038 199C986 199 970 168 976 134C1016 134 1040 152 1038 199Z" fill="#63A483"/>
   <path d="M1042 175C1042 132 1064 111 1105 112C1105 152 1083 175 1042 175Z" fill="#16765A"/>
   <path d="M1120 197L1126 212L1142 213L1130 224L1134 240L1120 232L1106 240L1110 224L1098 213L1114 212Z" fill="#C18A35"/>
-  <text x="70" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3" fill="#52715F">REAL USE · REAL CHOICE · KIND RECOGNITION</text>
-  <text x="66" y="159" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" fill="#174F40">Open Gratitude</text>
-  <text x="70" y="212" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="30" fill="#16765A">开源致谢</text>
-  <text x="70" y="264" font-family="Microsoft YaHei,Segoe UI,Arial,sans-serif" font-size="21" fill="#52715F">让真实使用，被善意看见。</text>
-  <text x="70" y="298" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#52715F">Let real use meet kind recognition.</text>
+  <text x="70" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3" fill="#52715F">KINDNESS · OPEN SOURCE · YOUR CHOICE</text>
+  <text x="66" y="159" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" fill="#174F40">KindlyStar</text>
+  <text x="70" y="212" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="30" fill="#16765A">一点星意</text>
+  <text x="70" y="264" font-family="Microsoft YaHei,Segoe UI,Arial,sans-serif" font-size="21" fill="#52715F">用过的好项目，送上一点星意。</text>
+  <text x="70" y="298" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#52715F">A little Star. A little thanks.</text>
 </svg>

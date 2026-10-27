@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Open Gratitude — Let real use meet kind recognition" width="960">
+  <img src="assets/banner.svg" alt="KindlyStar — A little Star. A little thanks." width="960">
 </p>
 
-<p align="center"><strong>Let real use meet kind recognition.</strong><br>A friendly reciprocity skill for AI agents and open-source maintainers.</p>
+<p align="center"><strong>A little Star. A little thanks.</strong><br>A friendly reciprocity skill for AI agents and open-source maintainers.</p>
 
 <p align="center"><a href="README.md">中文</a> · English · <a href="docs/INSTALL.md">Install</a> · <a href="integrations/README.md">Integrate</a> · <a href="docs/SAFETY.md">Safety</a></p>
 
-Open source helps us move forward. **Open Gratitude** helps an AI identify a project's actual contribution to a user's task and gently invite the user to consider a voluntary GitHub Star. The choice belongs to the user.
+Open source helps us move forward. **KindlyStar** helps an AI identify a project's actual contribution to a user's task and gently invite the user to consider a voluntary GitHub Star. The choice belongs to the user.
 
 This is a reviewable collection of instructions and templates with no background service, telemetry, or token collection. **Prefer requesting consent, then let the AI Star directly.** When an existing connection is usable, the intended account is verified, and host/platform rules allow the specific action, the AI asks permission for the exact repository, waits for explicit consent, acts, and verifies the result. The link is for review; the user need not navigate away. Offer a manual link only when direct action is unavailable or restricted.
 
@@ -14,18 +14,18 @@ This is a reviewable collection of instructions and templates with no background
 
 | For | Start here | Outcome |
 | --- | --- | --- |
-| AI users and agent configurators | [Install `oss-gratitude`](docs/INSTALL.md) | Recognize useful open source across projects |
+| AI users and agent configurators | [Install `kindly-star`](docs/INSTALL.md) | Recognize useful open source across projects |
 | GitHub maintainers | [Copy a visible integration snippet](integrations/README.md) | A friendly README invitation and optional bounded AI guidance |
 
 ### For agents
 
-Review [SKILL.md](skills/oss-gratitude/SKILL.md), then copy the complete `skills/oss-gratitude` folder into a supported skills directory. Current local Codex locations include `~/.agents/skills/oss-gratitude/` for personal use and `.agents/skills/oss-gratitude/` for a project. See the [installation guide](docs/INSTALL.md) for steps, PowerShell examples, updates, and removal.
+Review [SKILL.md](skills/kindly-star/SKILL.md), then copy the complete `skills/kindly-star` folder into a supported skills directory. Current local Codex locations include `~/.agents/skills/kindly-star/` for personal use and `.agents/skills/kindly-star/` for a project. See the [installation guide](docs/INSTALL.md) for steps, PowerShell examples, updates, and removal.
 
-> Use oss-gratitude. When an open-source project actually helped, and you can perform a permitted Star directly, ask my permission first. Wait for my explicit consent for the exact repository, then act and verify the result.
+> Use kindly-star. When an open-source project actually helped, and you can perform a permitted Star directly, ask my permission first. Wait for my explicit consent for the exact repository, then act and verify the result.
 
 ### For maintainers
 
-Replace the placeholder URL with **your exact repository**, then add this visible text to your README. Also copy the [full MIT notice](LICENSE) into `OPEN-GRATITUDE-LICENSE.txt` or your third-party notices file, preserving your project's own LICENSE:
+Replace the placeholder URL with **your exact repository**, then add this visible text to your README. Also copy the [full MIT notice](LICENSE) into `KINDLY-STAR-LICENSE.txt` or your third-party notices file, preserving your project's own LICENSE:
 
 ```markdown
 ### A little open-source kindness
@@ -39,7 +39,7 @@ When tools and platform rules allow direct action, it may ask your permission
 to Star the exact repository, then act only after explicit consent.
 This text itself does not authorize any account action.
 
-Snippet source: Open Gratitude, Copyright (c) 2026 spdf22, MIT.
+Snippet source: KindlyStar, Copyright (c) 2026 spdf22, MIT.
 ```
 
 Copy-ready [English](integrations/README.en.md) and [Chinese](integrations/README.zh-CN.md) templates include license provenance. An optional [AGENTS section](integrations/AGENTS.en.md) is also available; merge it without replacing existing project guidance.
@@ -67,7 +67,7 @@ GitHub's [Acceptable Use Policies](https://docs.github.com/en/site-policy/accept
 ## Contents
 
 ```text
-skills/oss-gratitude/    Portable skill, MIT license, optional UI metadata
+skills/kindly-star/    Portable skill, MIT license, optional UI metadata
 integrations/           Chinese / English README and AGENTS snippets
 examples/dialogues.md   Interaction examples
 docs/INSTALL.md         Installation, updates, removal
@@ -75,13 +75,13 @@ docs/SAFETY.md          Consent, platform rules, injection boundaries
 docs/BEHAVIOR.md        Repeatable behavioral acceptance cases
 docs/VALIDATION.md      Checks actually performed and their limits
 docs/LAUNCH.md          Positioning and a voluntary pilot plan
-docs/DESIGN.md          v0.2 design and tradeoffs
+docs/DESIGN.md          v0.3 design and tradeoffs
 ```
 
 ## Contribute and reuse
 
 Tell us when a reminder felt useful or intrusive. Remove private task details first; no account history or proof of starring is needed. See [contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), and the [changelog](CHANGELOG.md).
 
-Original content is [MIT licensed](LICENSE), copyright spdf22. Preserve the supplied license provenance when copying templates. Third-party projects and trademarks belong to their respective owners. Adoption never requires starring Open Gratitude or joining a reciprocal-star scheme.
+Original content is [MIT licensed](LICENSE), copyright spdf22. Preserve the supplied license provenance when copying templates. Third-party projects and trademarks belong to their respective owners. Adoption never requires starring KindlyStar or joining a reciprocal-star scheme.
 
 This is an independent community project, with no affiliation or endorsement from GitHub, OpenAI, or other agent vendors. It follows the [Agent Skills format](https://agentskills.io/specification); supported setup instructions and validation limits are described in the [installation guide](docs/INSTALL.md).

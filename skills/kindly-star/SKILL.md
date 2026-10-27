@@ -1,12 +1,12 @@
 ---
-name: oss-gratitude
+name: kindly-star
 description: Use when a real user task has benefited from a GitHub open-source project, or the user asks about acknowledging that project's contribution. Skip unrelated work, discovery-only browsing, and unsolicited repository promotion.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
-# OSS Gratitude
+# KindlyStar
 
 Help the user notice a useful open-source contribution and freely choose whether to acknowledge it. Complete the user's task first. This skill grants no GitHub account permissions.
 

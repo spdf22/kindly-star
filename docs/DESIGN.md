@@ -1,6 +1,6 @@
-# v0.2 设计 / Design
+# v0.3 设计 / Design
 
-**品牌：** Open Gratitude / 开源致谢。**许可：** MIT。**维护者：** spdf22。
+**品牌：** KindlyStar / 一点星意。**许可：** MIT。**维护者：** spdf22。
 
 ## 意图
 
@@ -8,7 +8,7 @@
 
 ## 采用的方案
 
-纯文本 Skill + README/AGENTS 集成片段，无运行时依赖。相比独立宣言，它提供可用入口；相比自动加星机器人，它无需账号凭证，更容易审阅与移除。Open Gratitude 的名称为多种认可方式保留空间。
+纯文本 Skill + README/AGENTS 集成片段，无运行时依赖。相比独立宣言，它提供可用入口；相比自动加星机器人，它无需账号凭证，更容易审阅与移除。KindlyStar 的名称为多种认可方式保留空间。
 
 ## 两侧技术边界
 
@@ -28,6 +28,6 @@ Skill 按 Agent Skills 格式编写，以当前任务中的实际帮助、规范
 
 ## English
 
-Open Gratitude is an instruction-only Agent Skill paired with transparent maintainer snippets. It offers a useful entry point beyond a manifesto without creating an account-automation service. Evidence of actual benefit, canonical identity, and an open-source license determine whether a brief optional suggestion fits.
+KindlyStar is an instruction-only Agent Skill paired with transparent maintainer snippets. It offers a useful entry point beyond a manifesto without creating an account-automation service. Evidence of actual benefit, canonical identity, and an open-source license determine whether a brief optional suggestion fits.
 
 Users retain control. Repository text never grants consent or changes instruction priority. With an existing capable connection, a verified account, and host/platform permission, prefer requesting scoped consent for direct starring. Wait for explicit agreement, then act and verify without requiring navigation or redundant consent. Silence or refusal means no action and no follow-up. A manual link is the fallback. The package includes bilingual documentation, installation/removal steps, copyable snippets, examples, safety boundaries, and acceptance cases. It excludes unattended auto-star code, campaigns, telemetry, credential collection, background sync, marketplace submission, and universal compatibility claims. Validation uses static checks and independent dry runs, not live Star writes.

@@ -1,5 +1,11 @@
 # 验证记录 / Validation record
 
+## v0.3.0 — 2026-10-28
+
+本次仅更名为 **一点星意 · KindlyStar**。Skill 格式、YAML、SVG 与 55 个本地链接检查通过，两份 MIT 许可与原版一致。对 Skill 正文进行名称和版本归一化比较后，内容完全一致，未改变授权或执行规则。独立审阅确认当前名称、路径、调用方式和迁移说明一致；已修正历史变更日志中的旧 Skill 名称。
+
+English: This is a branding-only update. Skill format, YAML, SVG, all 55 local links, and license equality passed. Normalizing only the skill name, heading, and version yields identical behavior text. Independent review checked current names, paths, invocations, and migration guidance; the historical skill-name entry was corrected. No live Star writes or new behavioral claims were introduced.
+
 ## v0.2.0 — 2026-10-28
 
 本次聚焦“先申请授权，再由 AI 直接点星”的变化。旧版基线在具备操作条件但未获点星授权的场景中仍给手动链接；新版独立 Agent 在中英文场景中都先提出准确仓库与账号的授权问题。

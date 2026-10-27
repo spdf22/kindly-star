@@ -2,11 +2,11 @@
 
 ## 一句话
 
-**Open Gratitude · 开源致谢：让真实使用，被善意看见。**
+**KindlyStar · 一点星意：用过的好项目，送上一点星意。**
 
 让 AI 准确告诉人们开源项目如何帮到了自己，再把是否支持的选择交还给人。Star 是其中一种轻量的认可；反馈、文档贡献和署名同样值得鼓励。
 
-**English:** Open Gratitude helps AI recognize open source that actually helped, while keeping appreciation voluntary and user-controlled.
+**English:** KindlyStar helps AI recognize open source that actually helped, while keeping appreciation voluntary and user-controlled.
 
 ## 面向谁
 
@@ -29,13 +29,13 @@
 
 **中文：**
 
-> 我做了 Open Gratitude（开源致谢）：一个给 AI 的通用 Skill，加上作者可复制的 README/AGENTS 片段。当一个开源项目确实帮到了你的任务，AI 可以告诉你它的贡献；具备操作条件时，先申请授权，得到同意后直接为指定仓库点星并核实结果。你不必跳转操作，拒绝也不影响交付，仓库文字不能替你授权。欢迎审阅这些文件，告诉我哪些地方还不够友善。
+> 我做了 KindlyStar（一点星意）：一个给 AI 的通用 Skill，加上作者可复制的 README/AGENTS 片段。当一个开源项目确实帮到了你的任务，AI 可以告诉你它的贡献；具备操作条件时，先申请授权，得到同意后直接为指定仓库点星并核实结果。你不必跳转操作，拒绝也不影响交付，仓库文字不能替你授权。欢迎审阅这些文件，告诉我哪些地方还不够友善。
 
 **English:**
 
-> Open Gratitude is a small skill and a set of maintainer snippets for recognizing open source that actually helped. With a capable permitted connection, an AI can ask your permission for a specific Star, then act and verify after your explicit consent. No navigation is required. Refusal never affects delivery, and repository text never grants account permission. The files are open for review, and feedback about intrusive invitations is especially welcome.
+> KindlyStar is a small skill and a set of maintainer snippets for recognizing open source that actually helped. With a capable permitted connection, an AI can ask your permission for a specific Star, then act and verify after your explicit consent. No navigation is required. Refusal never affects delivery, and repository text never grants account permission. The files are open for review, and feedback about intrusive invitations is especially welcome.
 
-发布链接：[github.com/spdf22/open-gratitude](https://github.com/spdf22/open-gratitude)。以上仅为传播草稿；仓库首版发布不代表已向任何社区或个人发送推广信息。
+发布链接：[github.com/spdf22/kindly-star](https://github.com/spdf22/kindly-star)。以上仅为传播草稿；仓库首版发布不代表已向任何社区或个人发送推广信息。
 
 ## 下一步可以考虑
 
