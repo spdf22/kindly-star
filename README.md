@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="KindlyStar 一点星意 — 用过的好项目，送上一点星意" width="960">
+  <img src="assets/kindly-star-banner.svg" alt="KindlyStar 一点星意 — 用过的好项目，送上一点星意" width="960">
 </p>
 
 <p align="center"><strong>用过的好项目，送上一点星意。</strong><br>一个面向 AI Agent 与开源作者的友善互惠 Skill 项目。</p>

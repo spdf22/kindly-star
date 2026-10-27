@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="KindlyStar — A little Star. A little thanks." width="960">
+  <img src="assets/kindly-star-banner.svg" alt="KindlyStar — A little Star. A little thanks." width="960">
 </p>
 
 <p align="center"><strong>A little Star. A little thanks.</strong><br>A friendly reciprocity skill for AI agents and open-source maintainers.</p>
