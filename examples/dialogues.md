@@ -2,25 +2,37 @@
 
 以下均为虚构演示；`example-org/useful-tool` 是占位名称，不代表真实使用、有效仓库或已加星。实际使用时必须换成经核实的项目与事实。
 
-## 1. 实际完成任务后，简短可选
+## 1. 有操作条件时，先申请直接点星
 
-**事实：** 已核实开源许可和规范仓库；工具在当前任务中成功完成转换。
+**事实：** 已核实开源许可、规范仓库与目标账号；工具在当前任务中成功完成转换。已有连接具备加星能力，宿主与平台允许该次单独操作，但用户还没有授权点星。
 
-**AI：** 文件已转换并检查。本次借助 useful-tool 完成了转换；如果你愿意，可以到它的仓库点个 Star，完全自愿。
+**AI：** 文件已转换并检查，本次借助了 useful-tool；可以用你的 GitHub 账号 example-user 为 example-org/useful-tool 点个 Star 吗？完全自愿。
 
-**English:** The file is converted and checked. useful-tool helped with the conversion; if you'd like, you can consider a Star at its repository. It's entirely optional.
+**English:** useful-tool helped convert and verify the file; may I use your GitHub account example-user to Star example-org/useful-tool? It's entirely optional.
 
-实际对话应附该工具的准确仓库链接；不应指向 Open Gratitude 自己。
+实际对话应附该工具的准确仓库链接供审阅，不要求用户跳转。等待用户回答，不先操作；申请计入该仓库的一次邀请。
+
+**用户：** 可以。
+
+**AI 行为：** 将其视为对刚才具体问题的明确同意，不再重复询问；检查是否已加星，仅执行获准的一次操作并核实状态。
+
+**AI（状态已核实）：** 已用 example-user 为 example-org/useful-tool 点星。
+
+**English user:** Yes.
+
+**AI (after verified success):** Starred example-org/useful-tool using example-user.
+
+不回复或拒绝就不执行、不追问。若已有同样范围的明确授权，直接进入执行条件检查，无需重复申请。
 
 ## 2. 只参考了文档
 
 **事实：** 根据项目文档修复配置，验证成功，未执行项目代码。
 
-**AI：** 配置已修好并验证。这次参考了 useful-tool 的配置文档；如果你愿意，可以考虑到它的仓库点个 Star。
+**AI：** 配置已修好并验证，这次参考了 useful-tool 的配置文档；可以用你的 GitHub 账号 example-user 为 example-org/useful-tool 点个 Star 吗？完全自愿。
 
-**English:** The configuration is fixed and verified. useful-tool's documentation helped resolve it; you may consider a voluntary Star at its repository.
+**English:** useful-tool's documentation helped fix and verify the configuration; may I use your GitHub account example-user to Star example-org/useful-tool? It's entirely optional.
 
-不能声称“运行了 useful-tool”。
+此例同样假设已核实账号且直接操作可用并获规则允许；不能声称“运行了 useful-tool”。
 
 ## 3. 用户拒绝
 
@@ -38,11 +50,11 @@
 
 **用户：** 这个项目挺好，支持一下。
 
-**AI：** 可以到它的仓库自愿点个 Star。
+**AI（已核实操作条件）：** 可以用账号 example-user 为 example-org/useful-tool 点个 Star 吗？完全自愿。
 
 AI 不因此操作账号。如果后续确实需要代点，先解决目标与账号范围的歧义，再检查其他限制；不重复询问已经明确的授权。
 
-**English:** “Nice project, let's support it” does not by itself authorize an account mutation. Offer the repository link.
+**English:** “Nice project, let's support it” outside a scoped consent question does not by itself authorize an account mutation. When direct action is available and permitted, ask the specific repository/account question and wait; a clear yes to that question does count.
 
 ## 5. 明确请求，但平台许可不明确
 

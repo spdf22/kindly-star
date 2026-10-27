@@ -2,7 +2,7 @@
 
 ## 先看边界
 
-这是一个纯指令 Skill，没有运行时代码，不需要 GitHub token 或写权限。安装只允许 Agent 按条件考虑可选提醒，不授权点星。先审阅 [SKILL.md](../skills/oss-gratitude/SKILL.md) 与[安全说明](SAFETY.md)。
+这是一个纯指令 Skill，没有运行时代码，安装不需要 GitHub token 或写权限。启用后，Agent 在真实受益且已有操作条件时，可以先申请直接点星；你的明确同意才授权该次账号操作，执行仍需宿主、工具和平台许可。不需要为本包新建 token。先审阅 [SKILL.md](../skills/oss-gratitude/SKILL.md) 与[安全说明](SAFETY.md)。
 
 首版使用 [Agent Skills 标准格式](https://agentskills.io/specification)。不同宿主的发现路径与安装方式不同，不承诺通用于所有产品。下述 Codex 本地路径依据 [OpenAI 官方文档](https://learn.chatgpt.com/docs/build-skills)，核对于 2026-10-28；其他宿主请使用自己的技能安装说明。
 
@@ -32,7 +32,7 @@ Copy-Item -Path './skills/oss-gratitude/*' -Destination $gratitudeSkillTarget -R
 ```
 
 3. 查看宿主的技能列表。若未出现，按宿主说明刷新或重新打开会话。Codex 可用 `$oss-gratitude` 显式调用。
-4. 做一次只读试用：要求 Agent 在确实受益的任务结束时考虑提醒，并明确“不要操作账号”。然后说“本次不用”或“不再提醒”，检查它是否尊重。
+4. 做一次干跑试用：要求 Agent 在确实受益的任务结束时展示它会如何申请为指定仓库点星，并明确“这次只演示，不操作账号”。然后说“本次不用”或“不再提醒”，检查它是否尊重。正式使用时，只有对具体仓库和账号的明确同意才允许继续执行。
 
 ### 使用已有安装器
 
@@ -64,12 +64,12 @@ Copy-Item -Path './skills/oss-gratitude/*' -Destination $gratitudeSkillTarget -R
 
 ## English quick start
 
-Review the skill and safety boundaries first. This instruction-only package needs no token or GitHub write permission. Installation permits considering optional reminders, not account actions.
+Review the skill and safety boundaries first. Installing this instruction-only package needs no token or GitHub write permission. With actual benefit and an existing permitted connection, the agent may first request consent to Star directly. Only explicit consent for that repository/account authorizes the account action; host, tool, and platform permissions still apply. Do not create a token just for this package.
 
 For current local Codex, copy the complete `skills/oss-gratitude` folder into **one** location: `~/.agents/skills/oss-gratitude/` for personal use, or `<project>/.agents/skills/oss-gratitude/` for project scope. Keep its license and optional UI metadata. Review and back up an existing same-name installation instead of overwriting it. The PowerShell example above stops if that destination exists.
 
 Use `$oss-gratitude` explicitly in Codex, or your host's skill selector. If an existing skill installer is available, ask it to install `skills/oss-gratitude` from `spdf22/open-gratitude` after review. Other hosts use their own installation flow. This release is not a ChatGPT plugin-directory listing and does not automatically install in cloud Work from a repository link.
 
-For a trial, explicitly ask for suggestions only, then test “not this time” and “no more reminders in this chat.” To update, compare versions and preserve customizations. To remove, delete only the installed folder after verifying its path, then refresh as your host requires. Removal never changes GitHub Stars. Do not claim permanent opt-out memory unless the host supports it and the user authorized saving it.
+For a dry run, ask the agent to demonstrate how it would request permission to Star the exact repository and account, explicitly without acting. Then test “not this time” and “no more reminders in this chat.” Live action requires explicit scoped consent. To update, compare versions and preserve customizations. To remove, delete only the installed folder after verifying its path, then refresh as your host requires. Removal never changes GitHub Stars. Do not claim permanent opt-out memory unless the host supports it and the user authorized saving it.
 
 Validation covers format, local links, and independent-agent dry runs; it does not certify every host or guarantee model behavior. No live GitHub Star mutation was used for validation.

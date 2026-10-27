@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.0 — 2026-10-28
+
+- 首选流程改为：真实使用 → AI 申请指定仓库与账号的授权 → 用户明确同意 → AI 直接执行并核实。
+- 链接供审阅，不再默认要求用户跳转；无法直接操作时才提供手动方案。
+- 针对具体申请的“可以”计为该次授权；沉默或拒绝不执行、不追问，同范围授权不重复确认。
+- 同步中英 README、作者模板、安装、安全、示例与验收案例；原有平台/工具限制和反刷星边界保持有效。
+
+### English
+
+Prefer scoped consent requests followed by direct, verified agent-assisted starring when available and permitted. Manual links are the fallback. A clear yes to the exact question counts; silence does not. Preserve host, tool, platform, opt-out, and anti-abuse boundaries. Update both language versions and examples.
+
 ## 0.1.0 — 2026-10-28
 
 - 发布 Open Gratitude / 开源致谢首版，MIT 许可证。

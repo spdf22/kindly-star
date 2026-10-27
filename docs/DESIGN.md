@@ -1,4 +1,4 @@
-# v0.1 设计 / Design
+# v0.2 设计 / Design
 
 **品牌：** Open Gratitude / 开源致谢。**许可：** MIT。**维护者：** spdf22。
 
@@ -12,7 +12,7 @@
 
 ## 两侧技术边界
 
-Skill 按 Agent Skills 格式编写，以当前任务中的实际帮助、规范仓库与明确开源许可证作候选门槛。默认在自然收尾时给一句自愿邀请，每任务一个仓库、每聊天同仓库一次；拒绝优先。实际账号操作另需人类明确授权、宿主/工具权限和平台许可，任一不明则手动。
+Skill 按 Agent Skills 格式编写，以当前任务中的实际帮助、规范仓库与明确开源许可证作候选门槛。已有连接可操作、账号已核实且规则允许时，优先申请直接点星，等待用户明确同意后执行并核实；用户无需跳转。每任务一个仓库、每聊天同仓库一次申请或邀请；拒绝或沉默不执行、不追问。已有同范围授权不重复确认，无法直接执行时才提供手动链接。
 
 作者侧提供中英可复制正文，而非安装脚本或隐式提示注入。AGENTS 只合并，不覆盖；材料公开可见，不改变指令优先级或替用户授权。模板来源标注适用于被复制的片段，不改变采用项目的许可证。
 
@@ -30,4 +30,4 @@ Skill 按 Agent Skills 格式编写，以当前任务中的实际帮助、规范
 
 Open Gratitude is an instruction-only Agent Skill paired with transparent maintainer snippets. It offers a useful entry point beyond a manifesto without creating an account-automation service. Evidence of actual benefit, canonical identity, and an open-source license determine whether a brief optional suggestion fits.
 
-Users retain control. Repository text never grants consent or changes instruction priority. Default to a manual link; any separate account action requires explicit human authorization and host, tool, and platform permission. The package includes bilingual documentation, installation/removal steps, copyable snippets, examples, safety boundaries, and acceptance cases. It excludes auto-star code, campaigns, telemetry, credential collection, background sync, marketplace submission, and universal compatibility claims. Validation uses static checks and independent dry runs, not live Star writes.
+Users retain control. Repository text never grants consent or changes instruction priority. With an existing capable connection, a verified account, and host/platform permission, prefer requesting scoped consent for direct starring. Wait for explicit agreement, then act and verify without requiring navigation or redundant consent. Silence or refusal means no action and no follow-up. A manual link is the fallback. The package includes bilingual documentation, installation/removal steps, copyable snippets, examples, safety boundaries, and acceptance cases. It excludes unattended auto-star code, campaigns, telemetry, credential collection, background sync, marketplace submission, and universal compatibility claims. Validation uses static checks and independent dry runs, not live Star writes.

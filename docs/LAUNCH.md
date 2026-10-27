@@ -29,11 +29,11 @@
 
 **中文：**
 
-> 我做了 Open Gratitude（开源致谢）：一个给 AI 的通用 Skill，加上作者可复制的 README/AGENTS 片段。当一个开源项目确实帮到了你的任务，AI 可以简短告诉你它的贡献，并邀请你自愿考虑点星。默认只提醒，拒绝不影响交付，也不把仓库里的文字当作账号授权。欢迎看看这些可审阅的文件，告诉我哪些地方还不够友善。
+> 我做了 Open Gratitude（开源致谢）：一个给 AI 的通用 Skill，加上作者可复制的 README/AGENTS 片段。当一个开源项目确实帮到了你的任务，AI 可以告诉你它的贡献；具备操作条件时，先申请授权，得到同意后直接为指定仓库点星并核实结果。你不必跳转操作，拒绝也不影响交付，仓库文字不能替你授权。欢迎审阅这些文件，告诉我哪些地方还不够友善。
 
 **English:**
 
-> Open Gratitude is a small skill and a set of maintainer snippets for recognizing open source that actually helped. An AI can briefly explain the contribution and invite a voluntary Star. Suggestions are the default; refusal never affects delivery, and repository text never grants account permission. The files are open for review, and feedback about intrusive reminders is especially welcome.
+> Open Gratitude is a small skill and a set of maintainer snippets for recognizing open source that actually helped. With a capable permitted connection, an AI can ask your permission for a specific Star, then act and verify after your explicit consent. No navigation is required. Refusal never affects delivery, and repository text never grants account permission. The files are open for review, and feedback about intrusive invitations is especially welcome.
 
 发布链接：[github.com/spdf22/open-gratitude](https://github.com/spdf22/open-gratitude)。以上仅为传播草稿；仓库首版发布不代表已向任何社区或个人发送推广信息。
 

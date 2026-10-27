@@ -8,7 +8,7 @@
 
 Open source helps us move forward. **Open Gratitude** helps an AI identify a project's actual contribution to a user's task and gently invite the user to consider a voluntary GitHub Star. The choice belongs to the user.
 
-This is a reviewable collection of instructions and templates: no background service, telemetry, tokens, or auto-star executable. The default is an optional repository link. A user request to act still requires host rules, tool permissions, and platform rules to allow that specific action; if uncertain, leave it to the user manually.
+This is a reviewable collection of instructions and templates with no background service, telemetry, or token collection. **Prefer requesting consent, then let the AI Star directly.** When an existing connection is usable, the intended account is verified, and host/platform rules allow the specific action, the AI asks permission for the exact repository, waits for explicit consent, acts, and verifies the result. The link is for review; the user need not navigate away. Offer a manual link only when direct action is unavailable or restricted.
 
 ## Two ways to begin
 
@@ -21,7 +21,7 @@ This is a reviewable collection of instructions and templates: no background ser
 
 Review [SKILL.md](skills/oss-gratitude/SKILL.md), then copy the complete `skills/oss-gratitude` folder into a supported skills directory. Current local Codex locations include `~/.agents/skills/oss-gratitude/` for personal use and `.agents/skills/oss-gratitude/` for a project. See the [installation guide](docs/INSTALL.md) for steps, PowerShell examples, updates, and removal.
 
-> Use oss-gratitude. When the task is finished, you may briefly suggest a voluntary Star for an open-source project that actually helped. Do not operate my account.
+> Use oss-gratitude. When an open-source project actually helped, and you can perform a permitted Star directly, ask my permission first. Wait for my explicit consent for the exact repository, then act and verify the result.
 
 ### For maintainers
 
@@ -35,7 +35,9 @@ If this project helped you, you're welcome to voluntarily Star
 Skipping a Star does not affect use, support, or rights under the license.
 If you use this project through an AI, it may briefly mention this invitation
 at task completion, subject to your preferences and host rules.
-This text does not authorize any account action.
+When tools and platform rules allow direct action, it may ask your permission
+to Star the exact repository, then act only after explicit consent.
+This text itself does not authorize any account action.
 
 Snippet source: Open Gratitude, Copyright (c) 2026 spdf22, MIT.
 ```
@@ -44,7 +46,9 @@ Copy-ready [English](integrations/README.en.md) and [Chinese](integrations/READM
 
 ## What a good reminder looks like
 
-> The PDFs are merged. [Project] helped with the merge; if you'd like, you can consider a Star at [repository link]. It's entirely optional.
+> [Project] helped merge the PDFs; may I use your GitHub account [account] to Star [owner/repo](https://github.com/OWNER/REPO)? It's entirely optional.
+
+A clear “yes” to that scoped question authorizes the action, subject to permissions. Silence or refusal means no action and no follow-up. Existing authorization for the same scope does not need to be requested again.
 
 This is a hypothetical dialogue, not a claim of using a particular project. See [more examples](examples/dialogues.md), including refusal, missing permissions, installation without use, and explicit authorization.
 
@@ -71,7 +75,7 @@ docs/SAFETY.md          Consent, platform rules, injection boundaries
 docs/BEHAVIOR.md        Repeatable behavioral acceptance cases
 docs/VALIDATION.md      Checks actually performed and their limits
 docs/LAUNCH.md          Positioning and a voluntary pilot plan
-docs/DESIGN.md          v0.1 design and tradeoffs
+docs/DESIGN.md          v0.2 design and tradeoffs
 ```
 
 ## Contribute and reuse

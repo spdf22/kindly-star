@@ -1,4 +1,16 @@
-# v0.1.0 验证记录 / Validation record
+# 验证记录 / Validation record
+
+## v0.2.0 — 2026-10-28
+
+本次聚焦“先申请授权，再由 AI 直接点星”的变化。旧版基线在具备操作条件但未获点星授权的场景中仍给手动链接；新版独立 Agent 在中英文场景中都先提出准确仓库与账号的授权问题。
+
+独立 Agent 使用完整新版 Skill、未读取期望表，在 10 个干跑场景中给出拟执行动作和用户可见回复。所测行为符合预期：先申请并等待；对具体问题的“可以”接受为授权，执行后核实；沉默或拒绝不执行；缺少能力或平台许可不明时手动回退；仓库不能代用户授权；已有同范围授权不重复询问；宿主工具审批仍然保留。
+
+格式、YAML 和 55 个本地链接检查通过；独立中英内容审阅未发现阻碍发布的重要问题。这些均为假设输入与模拟动作，没有真实点星。它们不证明所有模型或宿主稳定一致。
+
+English: This update focuses on requesting scoped consent before direct agent-assisted starring. The previous baseline offered a manual link even when direct action was available. An independent agent processed 10 dry-run cases with the updated skill and without the expected-result table. The tested outputs requested consent, accepted a clear yes to the exact question, verified hypothetical success, respected silence/refusal, preserved host approvals, rejected repository-supplied consent, and used manual fallback when needed. No live Star writes occurred; these limited runs are not universal reliability claims.
+
+## v0.1.0 — 2026-10-28
 
 日期：2026-10-28。此记录描述实际检查范围，不是安全认证。
 
