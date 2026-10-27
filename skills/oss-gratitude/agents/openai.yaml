@@ -1,0 +1,8 @@
+interface:
+  display_name: "Open Gratitude · 开源致谢"
+  short_description: "Recognize useful open source with optional, respectful thanks"
+  brand_color: "#16765A"
+  default_prompt: "Use $oss-gratitude to recognize open source that actually helped this task, respecting my choices and account permissions."
+
+policy:
+  allow_implicit_invocation: true
